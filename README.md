@@ -8,3 +8,7 @@ https://acacha.github.io/gamepadStickSimpleExample
 # Source
 
 http://tangiblejs.com/posts/the-gamepad-api-and-physical-computing
+
+# More info
+
+http://acacha.org/mediawiki/Gamepad#Pooling
