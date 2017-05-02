@@ -23,16 +23,22 @@
                 -o-background-size: cover;
                 background-size: cover;
             }
-            #ball {
+            #ball,
+            #ball2 {
                 position: absolute;
                 left: calc(50vw - 25px);
                 top: calc(50vh - 25px);
-                background-color: red;
                 width: 50px;
                 height: 50px;
-                background: url(http://www.clipartbest.com/cliparts/9iR/5BE/9iR5BERRT.png);
+                border-radius: 25px;
                 background-size: 50px 50px;
                 background-repeat: no-repeat;
+            }
+            #ball {
+                background-color: red;
+            }
+            #ball2 {
+                background-color: yellow;
             }
         </style>
     </head>
@@ -40,6 +46,7 @@
     <body>
         <p>Press a button to activate your game controller.</p>
         <div id="ball"></div>
+        <div id="ball2"></div>
     </body>
 
 </html>
